@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instagram Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+        .navbar {
+            background-color: #fff;
+            padding: 10px 20px;
+            border-bottom: 1px solid #dbdbdb;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar img {
+            height: 30px;
+        }
+        .navbar input {
+            border: 1px solid #dbdbdb;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+            border-bottom: 1px solid #dbdbdb;
+        }
+        .profile img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .profile-info {
+            display: flex;
+            flex-direction: column;
+        }
+        .profile-info h2 {
+            margin: 0;
+        }
+        .profile-info span {
+            color: #8e8e8e;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2px;
+            padding: 10px;
+        }
+        .image-grid img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="c:\Users\gmvis\OneDrive\Pictures\qip.jpg" alt="Instagram Logo">
+        <input type="text" placeholder="Search">
+        <div>
+            <a href="#">Profile</a>
+            <a href="#">Messages</a>
+            <a href="#">Notifications</a>
+        </div>
+    </div>
+
+    <div class="profile">
+        <img src="c:\Users\gmvis\OneDrive\Pictures\OIP.jpeg" alt="Rocky bhai">
+        <div class="profile-info">
+            <h2>Yash</h2>
+            <span>100 posts • 500 followers • 300 following</span>
+        </div>
+    </div>
+
+    <div class="image-grid">
+        <img src="c:\Users\gmvis\OneDrive\Pictures\oip3.jpg" alt="Post 1">
+        <img src="c:\Users\gmvis\OneDrive\Pictures\OIP (2).jpeg" alt="Post 2">
+        <img src="c:\Users\gmvis\OneDrive\Pictures\OIP (1).jpeg" alt="Post 3">
+        <img src="c:\Users\gmvis\OneDrive\Pictures\OIP.jpeg" alt="Post 4">
+    </div>
+</body>
+</html>
